@@ -2,15 +2,16 @@
 
 A new Flutter project.
 
-## Getting Started
+## Key Topics:
 
-This project is a starting point for a Flutter application.
+-Observe state changes with BlocObserver.
 
-A few resources to get you started if this is your first Flutter project:
+-BlocProvider, Flutter widget which provides a bloc to its children.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+-BlocBuilder, Flutter widget that handles building the widget in response to new states.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Adding events with context.read.⚡
+
+-Prevent unnecessary rebuilds with Equatable.
+
+-Use the transformEvents method with Rx.
